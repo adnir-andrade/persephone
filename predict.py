@@ -34,7 +34,7 @@ def main():
     if args.category_names:
         with open(args.category_names, 'r') as f:
             cat_to_name = json.load(f)
-        flower_names = [cat_to_name[str(cls)] for cls in classes]
+        flower_names = [cat_to_name[str(flower)] for flower in classes]
     else:
         flower_names = classes
 
