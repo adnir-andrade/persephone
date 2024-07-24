@@ -24,6 +24,7 @@ _Cheers!_
 
 ## Project StructureProject Structure
 
+```bash
 _persephone/_
 ├── assets/
 ├── cat_to_name.json
@@ -48,6 +49,7 @@ _persephone/_
 ├── **pycache**/
 ├── requirements.txt
 └── train.py
+```
 
 ## Installation
 
