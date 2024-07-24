@@ -6,3 +6,8 @@ flowers/test/*
 flowers/train/*
 flowers/valid/*
 checkpoints/*
+
+!flowers/test/.gitkeep
+!flowers/train/.gitkeep
+!flowers/valid/.gitkeep
+!checkpoints/.gitkeep
