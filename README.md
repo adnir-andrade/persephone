@@ -3,14 +3,14 @@
 This is my final project for the _AI Programming with Python - Bertelsmann_ course. It's an AI developed and trained to recognize and catalog different types of flowers.
 
 ## Table of Contents
-
-    Overview
-    Project Structure
-    Installation
-    Usage
-    	Model Training
-    	Prediction
-
+```bash
+    ├── Overview
+    ├── Project Structure
+    ├── Installation
+    ├── Usage
+    │ ├── Model Training
+    │ ├── Prediction
+```
 ## Overview
 
 This project involves training a neural network to classify images of flowers into different categories. The model is trained on a dataset of flower images and can predict the type of flower from new images provided by the user. With it, you can create your own AI using VGG or Densenet architecture, tweaking some settings to get the best result. During my tests, I've managed to get up to 92% of accuracy.
