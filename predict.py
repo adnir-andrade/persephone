@@ -19,7 +19,7 @@ def main():
     (only if a category mapping file is provided).
     '''
 
-    parser = argparse.ArgumentParser(description="Predict the class for an input image using a trained deep learning model")
+    parser = argparse.ArgumentParser(description="Welcome to Persephone! Here you can use your trained AI to see if it can guess what class a flower belongs.")
     parser.add_argument('image_path', type=str, help='Path to the input image. Example: ./flowers/manual_test/fox_glove.jpeg')
     parser.add_argument('checkpoint', type=str, help='Checkpoint file. Example: ./checkpoints/checkpoint_vgg16_acc89_20240724.pth')
     parser.add_argument('--top_k', type=int, default=5, help='Return top K most likely classes (default: 5)')
