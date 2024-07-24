@@ -52,25 +52,25 @@ _persephone/_
 
 ## Installation
 
-###1. Clone this repository:
+### 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your_username/ai-flower-classifier.git
-cd ai-flower-classifier
+git clone https://github.com/adnir-andrade/persephone.git
+cd persephone
 ```
 
-###2. Install the required dependencies:
+### 2. Install the required dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-###3. (Optional) Download the flower image package and extract it in your root directory.
+### 3. (Optional) Download the flower image package and extract it in your root directory.
 [Download your flowers here](https://drive.google.com/file/d/17D5HcQd9XaPKQUxjJT8sKsOoo4XkOcOr/view?usp=sharing "Flowers")
 
 ## Usage
 
-###Model Training
+### Model Training
 
 To train the model, use the train.py script:
 
@@ -86,7 +86,7 @@ python train.py --help
 
 **IMPORTANT:** If you decide to use your own images, you must add them in their respective folders inside `./flowers/`. There is one directory for each: "test", "valid" and "train". You can specify your own "train" directory, but you need to add images to "valid" and "test", as you can't change their location.
 
-###Prediction
+### Prediction
 
 To predict the class of a flower, use the predict.py script as such:
 
