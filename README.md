@@ -3,14 +3,14 @@
 This is my final project for the _AI Programming with Python - Bertelsmann_ course. It's an AI developed and trained to recognize and catalog different types of flowers.
 
 ## Table of Contents
-
-    Overview
-    Project Structure
-    Installation
-    Usage
-    	Model Training
-    	Prediction
-
+```bash
+    ├── Overview
+    ├── Project Structure
+    ├── Installation
+    ├── Usage
+    │ ├── Model Training
+    │ ├── Prediction
+```
 ## Overview
 
 This project involves training a neural network to classify images of flowers into different categories. The model is trained on a dataset of flower images and can predict the type of flower from new images provided by the user. With it, you can create your own AI using VGG or Densenet architecture, tweaking some settings to get the best result. During my tests, I've managed to get up to 92% of accuracy.
@@ -46,32 +46,31 @@ _persephone/_
 ├── loader_manager.py
 ├── model_manager.py
 ├── predict.py
-├── **pycache**/
 ├── requirements.txt
 └── train.py
 ```
 
 ## Installation
 
-###1. Clone this repository:
+### 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your_username/ai-flower-classifier.git
-cd ai-flower-classifier
+git clone https://github.com/adnir-andrade/persephone.git
+cd persephone
 ```
 
-###2. Install the required dependencies:
+### 2. Install the required dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-###3. (Optional) Download the flower image package and extract it in your root directory.
+### 3. (Optional) Download the flower image package and extract it in your root directory.
 [Download your flowers here](https://drive.google.com/file/d/17D5HcQd9XaPKQUxjJT8sKsOoo4XkOcOr/view?usp=sharing "Flowers")
 
 ## Usage
 
-###Model Training
+### Model Training
 
 To train the model, use the train.py script:
 
@@ -87,7 +86,7 @@ python train.py --help
 
 **IMPORTANT:** If you decide to use your own images, you must add them in their respective folders inside `./flowers/`. There is one directory for each: "test", "valid" and "train". You can specify your own "train" directory, but you need to add images to "valid" and "test", as you can't change their location.
 
-###Prediction
+### Prediction
 
 To predict the class of a flower, use the predict.py script as such:
 
