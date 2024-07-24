@@ -46,7 +46,6 @@ _persephone/_
 ├── loader_manager.py
 ├── model_manager.py
 ├── predict.py
-├── **pycache**/
 ├── requirements.txt
 └── train.py
 ```
